@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Discounts for everyone!</title>
+</head>
+<body>
+    <header>
+        <h1>
+            Percentages and discounts
+        </h1>
+        <p>This is the second Platzi workshop</p>
+        <p>Tip: try LENOVO2022, WEARECRAZY20 or FREEWEEKEND for more discounts!</p>  
+    </header>
+    <section>
+        <h2>
+            Apply discounts and discount coupons to your purchases!
+        </h2>
+        <form>
+            <label for="InputPrice">Original price</label>
+            <input id="InputPrice" type="number"/>
+            <label for="InputDiscount">Discount %</label>
+            <input id="InputDiscount" type="number"/>
+            <br>
+            <br>
+            <label for="InputCoupon">Coupon code</label>
+            <input id="InputCoupon" type="string"/>
+            <button type="button" onclick="validCoupon()">Validate coupon</button>
+            <span id="validCoupon"></span>
+            <br>
+            <br>
+            <button type="button" onclick="clickPriceButton()">Go</button>
+            <p id="resultP"></p>
+        </form>
+    </section>
+    <script src = "descuentos.js"></script>
+</body>
+</html>
+
